@@ -138,6 +138,8 @@ const clearItems = () =>{
         }
 
         localStorage.removeItem('items');
+
+        checkUI();
     }
 }
 
