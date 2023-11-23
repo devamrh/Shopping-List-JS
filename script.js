@@ -136,6 +136,8 @@ const clearItems = () =>{
             itemList.removeChild(itemList.firstChild);
             checkUI();
         }
+
+        localStorage.removeItem('items');
     }
 }
 
